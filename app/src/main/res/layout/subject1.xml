@@ -2,14 +2,38 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:padding="15dp">
 
-    <TextView
-        android:id="@+id/Subject1Title"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Subject1Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject 1" />
+
+        <TextView
+            android:id="@+id/Subject1Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject 1 Description" />
+
+        <Button
+            android:id="@+id/Subject1More"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Subject1Detail"
+            android:text="Learn More" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/Subject1Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Subject 1"
-        />"
+        android:src="@drawable/abacus" />
 
 </LinearLayout>
