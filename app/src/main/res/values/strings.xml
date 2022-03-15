@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SchoolEducationCards</string>
+    <string name="title">School Education</string>
+    <string name="subject1Title">Maths</string>
+    <string name="subject2Title">Physics</string>
+    <string name="subject3Title">Chemistry</string>
+    <string name="subject4Title">Biology</string>
+    <string name="subject5Title">Geography</string>
+    <string name="subject1Detail">Discover the marvelous universe of maths, figures and forms.</string>
+    <string name="subject2Detail">Understand why our world is as it is. How everything works.</string>
+    <string name="subject3Detail">Mixtures, tones, textures. Understand how the materials works.</string>
+    <string name="subject4Detail">Learn about our biology, animals and plans. How the planet survive.</string>
+    <string name="subject5Detail">Learn about the multiple landscapes and their differences.</string>
+    <string name="buttonTitle">Learn More</string>
 </resources>

@@ -13,36 +13,36 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/Subject1Title"
+            android:id="@+id/Subject5Title"
             style="@style/subjectTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/subject1Title" />
+            android:text="@string/subject5Title" />
 
         <TextView
-            android:id="@+id/Subject1Detail"
+            android:id="@+id/Subject5Detail"
             style="@style/subjectDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/subject1Detail" />
+            android:text="@string/subject5Detail" />
 
         <Button
-            android:id="@+id/Subject1More"
+            android:id="@+id/Subject5More"
             style="@style/subjectButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_below="@id/Subject1Detail"
+            android:layout_below="@id/Subject5Detail"
             android:text="@string/buttonTitle" />
 
     </LinearLayout>
     <ImageView
-        android:id="@+id/Subject1Image"
+        android:id="@+id/Subject5Image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:src="@drawable/abacus" />
+        android:src="@drawable/earth_globe" />
 
 </LinearLayout>

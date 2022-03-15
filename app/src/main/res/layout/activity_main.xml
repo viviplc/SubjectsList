@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <!--- Images resources from: https://www.flaticon.com/authors/umeicon/flat?author_id=451 -->
     <TextView
         android:id="@+id/Title"
+        style="@style/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="School Education"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/title"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -27,13 +25,29 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="5dp">
+                android:id="@+id/subject1card"
+                style="@style/card">
                 <include layout="@layout/subject1"/>
-
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subject2card"
+                style="@style/card">
+                <include layout="@layout/subject2"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subject3card"
+                style="@style/card">
+                <include layout="@layout/subject3"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subject4card"
+                style="@style/card">
+                <include layout="@layout/subject4"/>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/subject5card"
+                style="@style/card">
+                <include layout="@layout/subject5"/>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
